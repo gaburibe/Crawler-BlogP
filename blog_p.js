@@ -1,12 +1,13 @@
+var Crawler = require("crawler");
+var csv = require("fast-csv");
+var fs = require("fs");
 //          (_    ,_,    _) 
 //          / `'--) (--'` \
 //         /  _,-'\_/'-,_  \
 //        /.-'     "     '-.\
 //         Julia Orion Smith
 
-var Crawler = require("crawler");
-var csv = require("fast-csv");
-var fs = require("fs");
+
 
 var NUM="0";
 
