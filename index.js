@@ -16,7 +16,7 @@ spArray=["init"];
 
 
 
-BlogP.enlist(5,function(resArray,links){
+BlogP.enlist(1,function(resArray,links){
     console.log(links)
     if(links.length>0){
       catalogo.concat(resArray);

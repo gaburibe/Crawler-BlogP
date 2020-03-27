@@ -102,7 +102,7 @@ exports.crawl=function (links){
                 });
                 
             }
-            fs.writeFileSync('BLOG_P/G/'+NUM+"_"+date+"_"+ursiSTR+'.json', JSON.stringify({"articulo":info,"url":res.options.uri,"metadata":{ "date":date,"fuente":fuente,"title":title, "subtitle":subtitle }}, null, 2) , 'utf-8');
+            fs.writeFileSync('BLOG_P/'+date+"_"+ursiSTR+'.json', JSON.stringify({"articulo":info,"url":res.options.uri,"metadata":{ "date":date,"fuente":fuente,"title":title, "subtitle":subtitle }}, null, 2) , 'utf-8');
             //console.log(date+ursiSTR)
             done();
             //cb({"articulo":info,"metadata":{ "date":date,"title":title.split("|")[0] }},autores,LINKS);
