@@ -7,4 +7,9 @@
 
  2-Una vez hecho esto solo falta correr "index.js" que hará una búsqueda dentro de la página más reciente que es esiempre: "https://www.gob.mx/presidencia/es/archivo/articulos?idiom=es&order=DESC&page=1" y guardará los resultados.
 
- Si alguna entrada ya se había bajado solo se remplaza, si se corre diario nos asegura las entradas necesarias completas.
+ Si alguna entrada ya se había bajado solo se reescribe con el mismo título (el título es la variable única con la que se guardan los archivos), si se corre diario nos asegura las entradas necesarias completas.
+
+
+# Bajar fechas específicas:
+
+Para agregar fechas pasadas que pueden faltar hay que modificar el primer parametro de la función "BlogP.enlist" en el archivo index. Por default está en "1" que es la página más reciente, pero se puede buscar en la página que contiene la información faltante y el programa bajara toda la información contenida en dicha página.
