@@ -1,0 +1,22 @@
+{
+  "name": "crawler-blogp",
+  "version": "1.0.0",
+  "description": "Crawler para la versión estenografica presidencia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaburibe/Crawler-BlogP.git"
+  },
+  "author": "Julia Orion Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaburibe/Crawler-BlogP/issues"
+  },
+  "homepage": "https://github.com/gaburibe/Crawler-BlogP#readme",
+  "dependencies": {
+    "async": "^3.2.0"
+  }
+}
