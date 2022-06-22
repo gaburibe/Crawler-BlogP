@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/gaburibe/Crawler-BlogP#readme",
   "dependencies": {
-    "async": "^3.2.0"
+    "async": "^3.2.2"
   }
 }
